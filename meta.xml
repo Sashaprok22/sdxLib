@@ -1,0 +1,53 @@
+<meta>
+    <min_mta_version client="1.3.0-9.04431" server="1.5.8" />
+    <download_priority_group>8000</download_priority_group>
+    <info name="sdxLib" version="1.0" author="Sashaprok" />
+
+    <script src="utils-c.lua" type="client" cache="false" />
+
+    <script src="elements/sdx_rectangle-c.lua" type="client" cache="false" />
+    <script src="elements/sdx_label-c.lua" type="client" cache="false" />
+    <script src="elements/sdx_progressbar-c.lua" type="client" cache="false" />
+    <script src="elements/sdx_button-c.lua" type="client" cache="false" />
+    <script src="elements/sdx_editbox-c.lua" type="client" cache="false" />
+    <script src="elements/sdx_space-c.lua" type="client" cache="false" />
+    <script src="elements/sdx_scroll-c.lua" type="client" cache="false" />
+    <script src="elements/sdx_slider-c.lua" type="client" cache="false" />
+    <script src="elements/sdx_list-c.lua" type="client" cache="false" />
+
+    <!-- <script src="sdx_module-c.lua" type="client" cache="false" /> -->
+    <script src="sdx_core-c.lua" type="client" cache="false" />
+
+    <export function="setSDXData" type="client" />
+    <export function="getSDXData" type="client" />
+    <export function="getSDXFont" type="client" />
+    <export function="sdxElementUpInRenderOrder" type="client" />
+    <export function="sdxGetElementOrderPosition" type="client" />
+
+    <export function="setActiveEditBox" type="client" />
+    <export function="getActiveEditBox" type="client" />
+    <export function="resetActiveEditBox" type="client" />
+
+    <file src="click.mp3" />
+    
+    <file src="fonts/gothampro.ttf" />
+    <file src="fonts/gothampro_bold.ttf" />
+
+    <file src="fonts/qanelas_bold.ttf" />
+    <file src="fonts/qanelas_medium.ttf" />
+    <file src="fonts/qanelas_regular.ttf" />
+
+    <file src="fonts/sfpro_light.ttf" />
+    <file src="fonts/sfpro_medium.ttf" />
+    <file src="fonts/sfpro_bold.ttf" />
+    <file src="fonts/sfpro_regular.ttf" />
+
+    <file src="fonts/gilroy_bold.ttf" />
+    <file src="fonts/gilroy_semibold.ttf" />
+    <file src="fonts/gilroy_medium.ttf" />
+    <file src="fonts/gilroy_regular.ttf" />
+
+    <file src="fonts/roboto_regular.ttf" />
+    <file src="fonts/roboto_medium.ttf" />
+    <file src="fonts/roboto_bold.ttf" />
+</meta>
